@@ -1,5 +1,5 @@
 # pdl1-wsi-classification
-Code used for classifying Whole Slide Images (WSI) of tumors to decide if they are positive or negative to the brown biomarker PD-L1 (brown staining on the tumor area), based on a WSI level label. 
+Code used for classifying Whole Slide Images (WSI) of tumors to decide if they are positive or negative to the brown biomarker PD-L1 (brown staining on the tumor area), based on a WSI level label. It is the support code for the draft article "PD-L1 classification of weakly-labeled whole slide images of breast cancer" by G. Cignoni, A. Sirbu et al. submitted to ICANN 2023 conference.
 
 ### Models
 The model developed is divided in 2 independent parts, Region of Interest (ROI) identification and PD-L1 classification. The notebooks contain portions of code both for training the models and for testing it.
